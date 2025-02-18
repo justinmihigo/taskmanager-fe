@@ -3,7 +3,7 @@ import { PlusCircle, Edit2, Trash2, Check, X } from 'lucide-react';
 import { Task, Priority, Status, TaskFormData } from './types';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api/tasks';
+const API_BASE_URL = 'https://imc-backend-02gz.onrender.com/api/tasks';
 
 const TaskManager: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
